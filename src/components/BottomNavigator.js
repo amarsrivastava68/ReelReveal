@@ -9,18 +9,14 @@ const BottomTabNavigator = () => {
     <View style={styles.container}>
       
       <View style={styles.tabContainer}>
-        <Pressable onPress={() => ('Info')} style={styles.iconContainer}>
-          <Icon name="home" size={24} color="#000" />
-        </Pressable>
-        <Pressable onPress={() => ('Messages')} style={styles.iconContainer}>
-          <Icon name="envelope" size={24} color="#000" />
+        
+        <Pressable onPress={() => {navigation.navigate('LeaderBoard')}} style={styles.iconContainer}>
+          <Icon name="trophy" size={24} color="#000" />
         </Pressable>
         <Pressable onPress={() => {navigation.navigate('AddReel')}} style={styles.iconContainer}>
           <Icon name="plus-circle" size={24} color="#000" />
         </Pressable>
-        <Pressable onPress={() => ('Notifications')} style={styles.iconContainer}>
-          <Icon name="bell" size={24} color="#000" />
-        </Pressable>
+       
         <Pressable onPress={() => {navigation.navigate('Profile')}} style={styles.iconContainer}>
           <Icon name="user" size={24} color="#000" />
         </Pressable>

@@ -29,7 +29,7 @@ const Profile = () => {
           <Text style={styles.statLabel}>Reels</Text>
         </View>
         <View style={styles.stats}>
-          <Text style={styles.statNumber}>1200</Text>
+          <Text style={styles.statNumber}>120 🪙</Text>
           <Text style={styles.statLabel}>Points</Text>
         </View>
       </View>

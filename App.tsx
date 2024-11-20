@@ -16,6 +16,7 @@ import AddReel from './src/screens/AddReel';
 import SplashPage from './src/screens/Splash';
 import ResultPage from './src/screens/ResultPage';
 import Profile from './src/screens/Profile';
+import LeaderBoardPage from './src/screens/LeaderBoard';
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <Stack.Screen name="Splash" component={SplashPage} />
         <Stack.Screen name="Result" component={ResultPage} />
         <Stack.Screen name="Profile" component={Profile} />
-
+        <Stack.Screen name="LeaderBoard" component={LeaderBoardPage} />
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="SignUp" component={SignUp} />
         <Stack.Screen name="Reels" component={Reels} />
